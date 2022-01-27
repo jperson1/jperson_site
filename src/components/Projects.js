@@ -8,13 +8,13 @@ export default function Projects() {
     return (
         <section id="projects" class="text-gray-400 bg-gray-900 body-font">
             <div class="container px-5 py-10 mx-auto text-center lg:px-40">
-                <div class="flex flex-col w-full mb-20">
+                <div class="flex flex-col w-full mb-8">
                     <CodeIcon class="text-purple-400 mx-auto inline-block w-10 mb-4" />
                     <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                         Projects
                     </h1>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Some projects and stuff I did in college
+                        projects and shit
                     </p>
                 </div>
                 <div class="flex flex-wrap -m-4">
