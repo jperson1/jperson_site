@@ -2,7 +2,7 @@
 
 import { CheckCircleIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "../data";
+import { skills } from "./data.js";
 
 export default function Skills() {
     return (
@@ -11,10 +11,10 @@ export default function Skills() {
                 <div class="text-center mb-8">
                     <ChipIcon class="text-purple-400 w-10 inline-block mb-4" />
                     <h1 class="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-                        Languages &amp; Software
+                        Technical Skills
                     </h1>
                     <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        Languages I've worked with and software I've worked in.
+                        A non-exaustive list of languages, frameworks, &amp; softwares I've used.
                     </p>
                 </div>
                 <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
