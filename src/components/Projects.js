@@ -13,8 +13,8 @@ export default function Projects() {
                     <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                         Projects
                     </h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        projects and shit
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-300">
+                        A selection of projects I've worked on.
                     </p>
                 </div>
                 <div class="flex flex-wrap -m-4">
