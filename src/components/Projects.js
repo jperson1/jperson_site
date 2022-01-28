@@ -42,11 +42,11 @@ export default function Projects() {
                         </a>
                     ))}
                 </div>
-                <div class="flex flex-col w-full mb-8">
-                    <p class="lg:w-2/3 mx-auto leading-normal text-base text-gray-400">
-                        Please note, some of the above projects cannot be shared directly, as they are a component or a product of private UMBC course content. I am, however, happy to talk about these projects by email or phone.
+                <div class="flex flex-col w-full mb-8 pt-2">
+                    <p class="w mx-auto leading-normal text-gray-400">
+                        Please note, some of the above projects cannot be shared directly, as they are a component or a product of private UMBC course content. I am, however, happy to talk about these projects by email or by phone.
                     </p>
-                    <a href="#contact" class="lg:w-2/3 mx-auto leading-relaxed text-purple-500 hover:text-purple-400">
+                    <a href="#contact" class="mx-auto leading-relaxed text-purple-500 hover:text-purple-400">
                         Contact Me
                     </a>
                 </div>
