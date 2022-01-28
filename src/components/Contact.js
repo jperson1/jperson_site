@@ -48,7 +48,7 @@ export default function Contact() {
                         <textarea
                             id="message"
                             name="message"
-                            class="w-full placeholder:italic placeholder:text-gray-500 bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" placeholder="A sample message for James."
+                            class="w-full placeholder:text-gray-500 placeholder:italics bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" placeholder="A sample message."
                         />
                     </div>
                     <button
@@ -57,7 +57,7 @@ export default function Contact() {
                         Submit
                     </button>
                 </form>
-                <div class="lg:w-3/5 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 pl-16 pb-5 flex items-end justify-start relative">
+                <div class="lg:w-3/5 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden pl-16 relative">
                     <iframe
                         width="100%"
                         height="100%"
@@ -77,6 +77,7 @@ export default function Contact() {
                             </h2>
                             <p class="leading-relaxed">
                                 8019 Mollye Road <br />
+                                Apt. C <br />
                                 Pikesville, MD 21208
                             </p>
                         </div>
