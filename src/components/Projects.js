@@ -13,7 +13,7 @@ export default function Projects() {
                     <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                         Projects
                     </h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-300">
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-gray-300">
                         A selection of projects I've worked on.
                     </p>
                 </div>
@@ -41,6 +41,14 @@ export default function Projects() {
                             </div>
                         </a>
                     ))}
+                </div>
+                <div class="flex flex-col w-full mb-8">
+                    <p class="lg:w-2/3 mx-auto leading-normal text-base text-gray-400">
+                        Please note, some of the above projects cannot be shared directly, as they are a component or a product of private UMBC course content. I am, however, happy to talk about these projects by email or phone.
+                    </p>
+                    <a href="#contact" class="lg:w-2/3 mx-auto leading-relaxed text-purple-500 hover:text-purple-400">
+                        Contact Me
+                    </a>
                 </div>
             </div>
         </section>
