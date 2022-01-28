@@ -11,7 +11,7 @@ export const projects = [
         title: "BracketFy - Spotify Bracket Generator",
         subtitle: "Django & React",
         description:
-            "BracketFy is a site that allows you to create a bracket of songs and vote on them in a room with other users.",
+            "BracketFy is a site that allows you to create a bracket of songs and vote on them in a room with other users. Designed with agile methodology in a team of four over the course of a semester.",
         image: "./Bracketfy.gif",
         link: "https://github.com/andrewloftus24/CMSC-447-Spotify-04",
     },
