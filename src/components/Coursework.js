@@ -1,6 +1,6 @@
 // src/components/Coursework,js
 
-import { CogIcon } from "@heroicons/react/solid"
+import { PencilIcon } from "@heroicons/react/solid"
 import React from "react"
 import { courses } from "./data"
 
@@ -9,7 +9,7 @@ export default function Coursework() {
         <section id="coursework">
             <div class="container px-5 py-5 mx-auto">
                 <div class="text-center mb-10">
-                    <CogIcon class="text-purple-400 w-10 inline-block mb-2" />
+                    <PencilIcon class="text-purple-400 w-10 inline-block mb-2" />
                     <h1 class="sm:text-4xl text-3xl font-medium title-font text-white mb-2">
                         Coursework
                     </h1>
