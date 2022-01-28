@@ -6,6 +6,7 @@ import About from "./components/About.js"
 import Education from "./components/Education.js"
 import Skills from "./components/Skills.js"
 import Projects from "./components/Projects.js"
+import Coursework from "./components/Coursework.js"
 import Contact from "./components/Contact.js"
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
             <Education />
             <Skills />
             <Projects />
+            <Coursework />
             <Contact />
         </main>
     );

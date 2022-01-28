@@ -9,8 +9,8 @@ export default function Projects() {
         <section id="projects" class="text-gray-400 bg-gray-900 body-font">
             <div class="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div class="flex flex-col w-full mb-8">
-                    <CodeIcon class="text-purple-400 mx-auto inline-block w-10 mb-4" />
-                    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+                    <CodeIcon class="text-purple-400 mx-auto inline-block w-10 mb-2" />
+                    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
                         Projects
                     </h1>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-gray-300">

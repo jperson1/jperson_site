@@ -9,8 +9,8 @@ export default function Skills() {
         <section id="skills">
             <div class="container px-5 mx-auto">
                 <div class="text-center mb-8">
-                    <ChipIcon class="text-purple-400 w-10 inline-block mb-4" />
-                    <h1 class="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+                    <ChipIcon class="text-purple-400 w-10 inline-block mb-2" />
+                    <h1 class="sm:text-4xl text-3xl font-medium title-font text-white mb-2">
                         Technical Skills
                     </h1>
                     <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
