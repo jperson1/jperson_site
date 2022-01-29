@@ -8,7 +8,7 @@ export default function Projects() {
     return (
         <section id="projects" class="text-gray-400 bg-gray-900 body-font">
             <div class="container px-5 py-10 mx-auto text-center lg:px-40">
-                <div class="flex flex-col w-full mb-8">
+                <div class="flex flex-col w-full mb-6">
                     <CodeIcon class="text-purple-400 mx-auto inline-block w-10 mb-2" />
                     <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
                         Projects
@@ -17,7 +17,7 @@ export default function Projects() {
                         A selection of projects I've worked on.
                     </p>
                 </div>
-                <div class="flex flex-wrap -m-4">
+                <div class="flex flex-wrap">
                     {projects.map((project) => (
                         <a
                             href={project.link}
