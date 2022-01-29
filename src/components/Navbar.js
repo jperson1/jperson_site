@@ -26,6 +26,9 @@ export default function Navbar() {
                     <a href="#experience" class="mr-5 hover:text-white">
                         Experience
                     </a>
+                    <a href="#extracurriculars" class="mr-5 hover:text-white">
+                        Extracurriculars
+                    </a>
                     <a href="#coursework" class="mr-5 hover:text-white">
                         Coursework
                     </a>

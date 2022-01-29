@@ -7,6 +7,7 @@ import Education from "./components/Education.js"
 import Skills from "./components/Skills.js"
 import Projects from "./components/Projects.js"
 import Jobs from "./components/Jobs.js"
+import Extracurriculars from "./components/Extracurriculars.js"
 import Coursework from "./components/Coursework.js"
 import Contact from "./components/Contact.js"
 
@@ -19,6 +20,7 @@ export default function App() {
             <Skills />
             <Projects />
             <Jobs />
+            <Extracurriculars />
             <Coursework />
             <Contact />
         </main>

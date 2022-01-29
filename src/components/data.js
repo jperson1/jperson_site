@@ -3,7 +3,7 @@ export const projects = [
         title: "Personal Website",
         subtitle: "Node.js & React",
         description:
-            "The site you see here! Built on Node.js and React, this is my first attempt at proper front-end work! It's purpose is to showcase my work and help me learn JSX and Javascript.",
+            "The site you see here! Built on Node.js and React, this is my first attempt at proper front-end work! It's purpose is to showcase my work and help me learn Javascript and CSS styling.",
         image: "./website.png",
         link: "/", 
     },

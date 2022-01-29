@@ -13,7 +13,7 @@ export default function Education() {
                         Education
                     </h1>
                     <p class="text-base leading-normal xl:w-2/4 lg:w-3/4 mx-auto">
-                        University of Maryland, Baltimore county | Winter 2021
+                        University of Maryland, Baltimore County | Winter 2021
                     </p>
                     <p class="text-base italic leading-normal xl:w-2/4 lg:w-3/4 mx-auto">
                         Bachelor of Science, Computer Science, Minor in Mathematics
