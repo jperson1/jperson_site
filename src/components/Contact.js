@@ -4,12 +4,36 @@ import { GlobeAltIcon, MailIcon, PhoneIcon } from "@heroicons/react/solid";
 import React from "react";
 
 export default function Contact() {
+    const [name, setname] = React.useState("");
+    const [email, setemail] = React.useState("");
+    const [message, setmessage] = React.useState("");
+
+    function encode(data) {
+        return Object.keys(data)
+            .map(
+                (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+            )
+            .join("&");
+    }
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({ "form-name": "contact", name, email, message }),
+        })
+            .then(() => alert("Message sent!"))
+            .catch((error) => alert(error));
+    }
+
     return (
         <section id="contact" class="relative">
             <div class="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
                 <form
                     netlify
                     name="contact"
+                    onSubmit={handleSubmit}
                     class="lg:w-2/5 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 pr-10">
                     <h2 class="text-purple-400 sm:text-4xl text-3xl mb-1 font-medium title-font">
                         Contact Me
@@ -26,6 +50,7 @@ export default function Contact() {
                             id="name"
                             name="name"
                             class="w-full placeholder:italic placeholder:text-gray-500 bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="Firstname Lastname"
+                            onChange={(e) => setname(e.target.value)}
                         />
                     </div>
                     <div class="relative mb-4">
@@ -37,6 +62,7 @@ export default function Contact() {
                             id="email"
                             name="email"
                             class="w-full placeholder:italic placeholder:text-gray-500 bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="example@example.com"
+                            onChange={(e) => setemail(e.target.value)}
                         />
                     </div>
                     <div class="relative mb-4">
@@ -49,6 +75,7 @@ export default function Contact() {
                             id="message"
                             name="message"
                             class="w-full placeholder:text-gray-500 placeholder:italics bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" placeholder="A sample message."
+                            onChange={(e) => setmessage(e.target.value)}
                         />
                     </div>
                     <button
@@ -67,7 +94,7 @@ export default function Contact() {
                         marginHeight={0}
                         marginWidth={0}
                         style={{ filter: "opacity(0.8)" }}
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.5354158889463!2d-76.7554224843739!3d39.366756226745196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c819eb1a28fa1b%3A0xd45865e9467068e5!2s8019%20Mollye%20Rd%2C%20Pikesville%2C%20MD%2021208!5e0!3m2!1sen!2sus!4v1643396778436!5m2!1sen!2sus"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49342.236067082515!2d-76.76125578574343!3d39.38137209443909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c810a854931c03%3A0xa91135d161a332a0!2sBaltimore%2C%20MD%2021208!5e0!3m2!1sen!2sus!4v1643493154984!5m2!1sen!2sus"
                     />
                     <div class="bg-gray-900 absolute top-4 left-4 flex flex-wrap py-6 rounded shadow-md">
                         <div class="lg:w-1/2 px-6">
@@ -76,8 +103,7 @@ export default function Contact() {
                                 ADDRESS:
                             </h2>
                             <p class="leading-relaxed">
-                                8019 Mollye Road <br />
-                                Apt. C <br />
+                                See Resume <br></br>
                                 Pikesville, MD 21208
                             </p>
                         </div>
