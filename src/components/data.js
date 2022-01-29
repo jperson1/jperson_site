@@ -99,6 +99,7 @@ export const jobs = [
         place: "Washington, D.C.",
         title: "Quality Assurance Officer",
         time: "October 2020 - Present",
+        link: "http://www.nhh-services.com/",
         description: ["Recurring duties include mental health note auditing and meeting agenda composition. Facilitated the transition of patient files from the DC DBH database to the New Hope database. Reduced average time to transfer insurance/treatment information from 15 minutes to 10 minutes."],
     },
     {
@@ -106,6 +107,7 @@ export const jobs = [
         place: "Baltimore, MD",
         title: "Teaching Fellow",
         time: "September - December 2021",
+        link: "https://www.csee.umbc.edu/",
         description: ["Managed the grading of 20-30 assignments per week for Social and Ethical Issues in IT. Analyzed papers based on students' technical writing and use of ethical reasoning. Advised students on attention to detail and logical argumentative reasoning."],
     },
     {
@@ -113,13 +115,15 @@ export const jobs = [
         place: "Baltimore, MD",
         title: "Project Assistant",
         time: "June - August 2020",
+        link: "https://reslife.umbc.edu/",
         description: ["Conducted routine and emergency maintenance in student residences on campus. Completed several week-long assignments a few days in advance. Changed 600 door batteries and built and replaced 60 window screens in three business weeks."],
     },
     {
-        company: "Champion Martial Arts",
+        company: "Champion Martial Arts Studio",
         place: "Gaithersburg, MD",
         title: "Taekwondo Instructor",
         time: "June 2014 - August 2020",
-        description: ["Taught students of varying ages and skill levels along a team of instructors."],
+        link: "https://www.champma.net/",
+        description: ["I practiced with the studio for several years before recieving my first degree black belt and began teaching. I then taught students of varying ages and skill levels along a team of other instructors."],
     },
 ]
