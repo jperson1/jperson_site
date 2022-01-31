@@ -33,7 +33,7 @@ export default function Coursework() {
                                         <p class="font-light text-gray-400">
                                             {job.time}
                                         </p>
-                                        <p class="font-white text-gray-400">
+                                        <p class="text-gray-300">
                                             {job.description}
                                         </p>
                                     </div>
