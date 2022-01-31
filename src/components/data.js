@@ -34,7 +34,7 @@ export const projects = [
 ];
 
 export const skills = [
-    "python",
+    "Python",
     "JupyterLab",
     "JavaScript",
     "React",
