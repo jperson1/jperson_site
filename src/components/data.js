@@ -5,7 +5,7 @@ export const projects = [
         description:
             "The site you see here! Built on Node.js and React, this is my first attempt at proper front-end work! It's purpose is to showcase my work and help me learn Javascript and CSS styling.",
         image: "./website.png",
-        link: "/", 
+        link: "https://github.com/jperson1/jperson_site_build", 
     },
     {
         title: "BracketFy - Spotify Bracket Generator",
