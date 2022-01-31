@@ -19,11 +19,8 @@ export default function Coursework() {
                     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2">
                         {jobs.map((job) => (
                             <div key={job.title} class="relative p-4 sm:w-1/2 w-full">
-                                <div class="absolute inset-5 bg-gray-800 p-4 place-content-center rounded">
-                                    {job.description}
-                                </div>
                                 <a href={job.link}>
-                                    <div class="relative bg-gray-800 rounded p-4 h-full place-content-center opacity-100 hover:opacity-0">
+                                    <div class="bg-gray-800 rounded p-4 h-full place-content-center">
                                         <p class="font-medium text-purple-400">
                                             {job.title}
                                         </p>
@@ -35,6 +32,9 @@ export default function Coursework() {
                                         </p>
                                         <p class="font-light text-gray-400">
                                             {job.time}
+                                        </p>
+                                        <p class="font-white text-gray-400">
+                                            {job.description}
                                         </p>
                                     </div>
                                 </a>
