@@ -91,7 +91,7 @@ export const courses = [
         description: "Mathematical analysis of linear algebra. Topics include finite-dimensional vector spaces, subspaces, basis, linear transformations, matrices, linear functionals, the dual-basis theorem, quotient spaces, determinants, and eigenvalues.",
     },
     
-]
+];
 
 export const jobs = [
     {
@@ -126,4 +126,14 @@ export const jobs = [
         link: "https://www.champma.net/",
         description: ["I practiced with the studio for several years before recieving my first degree black belt and began teaching. I then taught students of varying ages and skill levels along a team of other instructors."],
     },
-]
+];
+
+export const git = {
+    link: "https://github.com/jperson1",
+    logo: "./GitHub-Mark-32px.png",
+}
+
+export const linkedin = {
+    link: "https://www.linkedin.com/in/james-person-85aa1422b/",
+    logo: "./LI-In-Bug.png",
+}
