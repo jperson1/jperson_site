@@ -21,19 +21,11 @@ export default function Navbar() {
                     <a href="#coursework" class="mr-5 hover:text-white">Coursework</a>
                     <a href="#contact" class="mr-5 hover:text-white">Contact</a>
                 </nav>
-                <a href={git.link} key="./public/GitHub-Mark-64px.png" class="items-center flex flex-wrap">
-                    <img
-                        alt="Github Link"
-                        src={git.logo}
-                        class="mr-2 w-10 h-10"
-                    />
+                <a href={git.link} key="./public/GitHub-Mark-64px.png" class="items-center flex flex-wrap mr-4 hover:text-white">
+                    GitHub
                 </a>
-                <a href={linkedin.link} key="./public/GitHub-Mark-64px.png" class="items-center flex flex-wrap">
-                    <img
-                        alt="Linkedin Link"
-                        src={linkedin.logo}
-                        class="mr-2 w-14 h-10"
-                    />
+                <a href={linkedin.link} key="./public/GitHub-Mark-64px.png" class="items-center flex flex-wrap hover:text-white">
+                    LinkedIn
                 </a>
             </div>
         </header>
