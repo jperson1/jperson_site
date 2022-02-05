@@ -1,15 +1,16 @@
 // src/App.js
 
 import React from "react";
-import Navbar from "./components/Navbar.js"
-import About from "./components/About.js"
-import Education from "./components/Education.js"
-import Skills from "./components/Skills.js"
-import Projects from "./components/Projects.js"
-import Jobs from "./components/Jobs.js"
-import Extracurriculars from "./components/Extracurriculars.js"
-import Coursework from "./components/Coursework.js"
-import Contact from "./components/Contact.js"
+import Navbar from "./components/Navbar.js";
+import About from "./components/About.js";
+import Education from "./components/Education.js";
+import Skills from "./components/Skills.js";
+import Projects from "./components/Projects.js";
+import Jobs from "./components/Jobs.js";
+import Extracurriculars from "./components/Extracurriculars.js";
+import Coursework from "./components/Coursework.js";
+import Contact from "./components/Contact.js";
+import Footer from "./components/Footer.js";
 
 export default function App() {
     return (
@@ -23,6 +24,7 @@ export default function App() {
             <Extracurriculars />
             <Coursework />
             <Contact />
+            <Footer />
         </main>
     );
 }

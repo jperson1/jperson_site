@@ -6,7 +6,8 @@ import { git, linkedin } from "./data.js";
 
 export default function Navbar() {
     return (
-        <header class="bg-gray-800 md:sticky top-0 z-10">
+        <header class="bg-gray-800 shadow-lg shadow-gray-400
+                        md:sticky top-0 z-10 ">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a href="/" class="ml-3">
                     <HomeIcon class="text-purple-500 w-10 inline-block hover:text-purple-400" />
