@@ -16,19 +16,25 @@ export default function About() {
                     <div class="flex justify-center">
                         <a
                             href="#contact"
-                            class="inline-flex text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-500 rounded text-lg">
+                            class="inline-flex py-2 px-6 
+                                text-white bg-purple-600  hover:bg-purple-500 text-lg
+                                rounded shadow-lg shadow-gray-400">
                             Contact Me
                         </a>
                         <a
                             href="#projects"
-                            class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            class="ml-4 inline-flex py-2 px-6 
+                                text-gray-400 bg-gray-800  hover:bg-gray-700 hover:text-white text-lg
+                                rounded shadow-lg shadow-gray-400">
                             See My Previous Work
                         </a>
                     </div>
                 </div>
-                <div class="lg:max-w-full lg:w-full md:w-1/2 w-5/6">
+                <div class="lg:w-full md:w-1/2 w-5/6">
                     <img
-                        class="object-cover object-center rounded-3xl border-solid border-4 border-gray-800"
+                        class="object-cover object-center 
+                                rounded-3xl border-solid border-4 border-gray-800
+                                shadow-lg shadow-gray-400"
                         alt="umbc"
                         src="./umbc.jpeg"
                     />

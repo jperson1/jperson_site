@@ -22,7 +22,7 @@ export default function Projects() {
                         <a
                             href={project.link}
                             key={project.image}
-                            class="sm:w-1/2 w-100 p-4">
+                            class="md:w-1/2 w-full p-4 shadown-lg shadow-gray-400">
                             <div class="flex relative">
                                 <img
                                     alt="gallery"
@@ -43,7 +43,7 @@ export default function Projects() {
                     ))}
                 </div>
                 <div class="flex flex-col w-full">
-                    <p class="w mx-auto leading-normal text-gray-400">
+                    <p class="mx-auto leading-normal text-gray-400">
                         Please note, some of the above projects cannot be shared directly, as they are a component or a product of private UMBC course content. I am, however, happy to talk about my part in these projects by email or by phone.
                     </p>
                     <a href="#contact" class="mx-auto leading-relaxed text-purple-500 hover:text-purple-400">

@@ -20,7 +20,8 @@ export default function Coursework() {
                         {jobs.map((job) => (
                             <div key={job.title} class="relative p-4 sm:w-1/2 w-full">
                                 <a href={job.link}>
-                                    <div class="bg-gray-800 rounded p-4 h-full place-content-center">
+                                    <div class="place-content-center rounded p-4 h-full 
+                                                bg-gray-800 shadow-lg shadow-gray-400">
                                         <p class="font-medium text-purple-400">
                                             {job.title}
                                         </p>
