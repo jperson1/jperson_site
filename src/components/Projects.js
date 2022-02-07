@@ -4,6 +4,9 @@ import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "./data.js";
 
+
+// Projects | exported to App.js
+// Imports projects from data.js. Displays an image and some invisible text over it. When hovering, the text is displayed.
 export default function Projects() {
     return (
         <section id="projects" class="text-gray-400 bg-gray-900 body-font">

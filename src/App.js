@@ -12,6 +12,10 @@ import Coursework from "./components/Coursework.js";
 import Contact from "./components/Contact.js";
 import Footer from "./components/Footer.js";
 
+
+// App | exported to index.html
+// Shows all main functions in order
+// TODO: Router for showing several pages (testfiles, resume/CV pdf, etc.)
 export default function App() {
     return (
         <main class="text-gray-300 bg-gray-900 body-font">

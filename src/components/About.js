@@ -2,6 +2,11 @@
 
 import React from "react";
 
+
+// About | exported to App.js
+// Left side: Name, description, contact/projects links
+// Right side: Image of UMBC
+// TODO: change image to one of me
 export default function About() {
     return (
         <section id="about">

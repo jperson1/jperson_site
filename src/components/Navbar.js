@@ -4,6 +4,9 @@ import { HomeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { git, linkedin } from "./data.js";
 
+
+// Navbar | exported to App.js
+// Shows all necessary links in a sticky bar at the top of the page
 export default function Navbar() {
     return (
         <header class="bg-gray-800 shadow-lg shadow-gray-400

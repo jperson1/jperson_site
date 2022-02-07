@@ -1,3 +1,6 @@
+// src/components/data.js
+// Exports data to be used in expandable sections of the App.js components.
+
 export const projects = [
     {
         title: "Personal Website",

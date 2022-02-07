@@ -4,6 +4,9 @@ import { CheckCircleIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "./data.js";
 
+
+// Skills | exports to App.js
+// Imports skills from data.js. Skills are displayed in a side-by-side list preceeded by a check mark.
 export default function Skills() {
     return (
         <section id="skills">

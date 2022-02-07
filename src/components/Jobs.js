@@ -4,6 +4,9 @@ import { CogIcon } from "@heroicons/react/solid"
 import React from "react"
 import { jobs } from "./data"
 
+
+// Jobs | exported to App.js
+// Imports jobs from data.js to show experience in similar manner to Projects.js.
 export default function Coursework() {
     return (
         <section id="experience">

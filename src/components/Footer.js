@@ -1,5 +1,9 @@
 import React from "react";
 
+
+// Footer | exported to App.js
+// Disclaimer
+// TODO: Links, copyright, etc.
 export default function Footer(){
     return(
         <div class="footer">

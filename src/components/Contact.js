@@ -3,6 +3,11 @@
 import { GlobeAltIcon, MailIcon, PhoneIcon } from "@heroicons/react/solid";
 import React from "react";
 
+
+// Contact | exported to App.js
+// Left side: Contact form, should allow people to contact me through Netlify.
+// Right side: Google maps for Pikesville.
+// TODO: More for the contact form, clarifying actions
 export default function Contact() {
     const [name, setname] = React.useState("");
     const [email, setemail] = React.useState("");

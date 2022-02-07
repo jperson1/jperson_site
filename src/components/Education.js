@@ -3,6 +3,9 @@
 import { AcademicCapIcon } from "@heroicons/react/solid";
 import React from "react";
 
+
+// Education | exported to App.js
+// Displays relevant education info in the center of the screen
 export default function Education() {
     return (
         <section id="education">

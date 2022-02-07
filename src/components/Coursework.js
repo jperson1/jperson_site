@@ -4,6 +4,9 @@ import { PencilIcon } from "@heroicons/react/solid"
 import React from "react"
 import { courses } from "./data"
 
+
+// Coursework | exported to App.js
+// Imports courses from data.js to display a list of courses and a brief description. Displays three elements per row in sm+ screens.
 export default function Coursework() {
     return (
         <section id="coursework">

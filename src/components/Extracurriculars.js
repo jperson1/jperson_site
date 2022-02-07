@@ -3,6 +3,10 @@
 import { SunIcon } from "@heroicons/react/solid";
 import React from "react";
 
+
+// Extracurriculars | exported to App.js
+// Simply displays the UMBC TKD club.
+// TODO: Add the datas to data.js for an expandable list.
 export default function Extracurriculars() {
     return (
         <section id="extracurriculars">
