@@ -19,7 +19,8 @@ export default function Coursework() {
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-gray-300 mb-6">
                         Employers I've worked with.
                     </p>
-                    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2">
+                    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2
+                                shadow-lg shadow-gray-400">
                         {jobs.map((job) => (
                             <div key={job.title} class="relative p-4 sm:w-1/2 w-full">
                                 <a href={job.link}>

@@ -85,7 +85,8 @@ export default function Contact() {
                     </div>
                     <button
                         type="submit"
-                        class="text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-500 rounded text-lg">
+                        class="text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-500 rounded text-lg
+                                shadow-lg shadow-gray-400">
                         Submit
                     </button>
                 </form>
@@ -101,7 +102,7 @@ export default function Contact() {
                         style={{ filter: "opacity(0.8)" }}
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49342.236067082515!2d-76.76125578574343!3d39.38137209443909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c810a854931c03%3A0xa91135d161a332a0!2sBaltimore%2C%20MD%2021208!5e0!3m2!1sen!2sus!4v1643493154984!5m2!1sen!2sus"
                     />
-                    <div class="bg-gray-900 absolute top-4 left-4 flex flex-wrap py-6 rounded shadow-md">
+                    <div class="bg-gray-900 absolute top-4 left-4 flex flex-wrap py-6 rounded shadow-lg shadow-gray-400">
                         <div class="lg:w-1/2 px-6">
                             <h2 class="title-font font-semibold text-purple-400 tracking-widest text-xs">
                                 <GlobeAltIcon class="text-purple-400 w-4 mr-1 mb-1 inline-block" />
