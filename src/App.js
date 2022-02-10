@@ -1,6 +1,8 @@
 // src/App.js
 
-import React from "react";
+import React, { Suspense } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar.js";
 import About from "./components/About.js";
 import Education from "./components/Education.js";
@@ -20,6 +22,15 @@ export default function App() {
     return (
         <main class="text-gray-300 bg-gray-900 body-font">
             <Navbar />
+            <Home />
+            <Footer />
+        </main>
+    );
+}
+
+function Home() {
+    return (
+        <main class="text-gray-300 bg-gray-900 body-font">
             <About />
             <Education />
             <Skills />
@@ -28,7 +39,7 @@ export default function App() {
             <Extracurriculars />
             <Coursework />
             <Contact />
-            <Footer />
         </main>
-    );
+    )
 }
+
