@@ -24,7 +24,7 @@ export default function Skills() {
                     {skills.map((skill) => (
                         <div key={skill} class="p-2 w-full md:w-1/2">
                             <div class="flex p-4 h-full items-center
-                                        rounded bg-gray-800 shadow-lg shadow-gray-400">
+                                        rounded bg-gray-800 shadow-sm shadow-gray-400">
                                 <CheckCircleIcon class="text-purple-400 w-6 h-6 flex-shrink-0 mr-4" />
                                 <span class="title-font font-medium text-white">
                                     {skill}

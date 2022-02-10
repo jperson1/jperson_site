@@ -20,7 +20,7 @@ export default function Coursework() {
                         Classes I found particularly interesting or meaningful.
                     </p>
                     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2
-                                shadow-lg shadow-gray-400">
+                                shadow-sm shadow-gray-400">
                         {courses.map((course) => (
                             <div key={course.title} class="p-2 sm:w-1/3 w-full">
                                 <div class="bg-gray-800 rounded p-4 h-full place-content-center">

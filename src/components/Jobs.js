@@ -20,12 +20,12 @@ export default function Coursework() {
                         Employers I've worked with.
                     </p>
                     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2
-                                shadow-lg shadow-gray-400">
+                                shadow-sm shadow-gray-400">
                         {jobs.map((job) => (
                             <div key={job.title} class="relative p-4 sm:w-1/2 w-full">
                                 <a href={job.link}>
                                     <div class="place-content-center rounded p-4 h-full 
-                                                bg-gray-800 shadow-lg shadow-gray-400">
+                                                bg-gray-800 shadow-sm shadow-gray-400">
                                         <p class="font-medium text-purple-400">
                                             {job.title}
                                         </p>
