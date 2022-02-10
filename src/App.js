@@ -16,21 +16,32 @@ import Footer from "./components/Footer.js";
 
 
 // App | exported to index.html
-// Shows all main functions in order
-// TODO: Router for showing several pages (testfiles, resume/CV pdf, etc.)
+// Navbar first, then content, then footer
 export default function App() {
     return (
         <main class="text-gray-300 bg-gray-900 body-font">
             <Navbar />
-            <Home />
+
+            <BrowserRouter>
+                <Suspense fallback={ <div>Loading | Please Wait</div> }>
+                    <Routes>
+                        <Route path='/' element={ <Home /> } />
+                        <Route path='/test' element={ <Home /> } />
+                    </Routes>
+                </Suspense>
+            </BrowserRouter>
+
             <Footer />
         </main>
+
     );
+
+
 }
 
 function Home() {
     return (
-        <main class="text-gray-300 bg-gray-900 body-font">
+        <main>
             <About />
             <Education />
             <Skills />
@@ -40,6 +51,6 @@ function Home() {
             <Coursework />
             <Contact />
         </main>
-    )
+    );
 }
 
