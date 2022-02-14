@@ -26,15 +26,20 @@ import Test from "./components/Test.js"
 // Navbar first, then content, then footer
 export default function App() {
     return (
-        <main class="text-gray-300 bg-gray-900 body-font">
+        <main class="text-gray-300 bg-gray-900">
 
             <Navbar />
 
             <BrowserRouter>
                 <Suspense fallback={ <div>Loading | Please Wait</div> }>
                     <Routes>
-                        <Route path='/' element={ <Home /> } />
+                        {/* Home page */}
+                        <Route exact path='/' element={ <Home /> } />
+                        <Route path='/home' element={ <Home /> } />
+                        {/* Test page */}
                         <Route path='/test' element={ <Test /> } />
+                        {/* Default page (Home) */}
+                        <Route path='*' element={ <Home /> } />
                     </Routes>
                 </Suspense>
             </BrowserRouter>
