@@ -22,7 +22,7 @@ import Contact from "./components/Contact.js";
 import Test from "./components/Test.js"
 
 
-// App | exported to index.html
+// App | exported to index.js for use ass root in index.html
 // Navbar first, then content, then footer
 export default function App() {
     return (
