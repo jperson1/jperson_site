@@ -4,6 +4,7 @@ import React from "react";
 
 // Test | exported to App.js
 // Testing ground for various objects
+// Accessed through https://site/test
 
 export default function Test() {
     return (
