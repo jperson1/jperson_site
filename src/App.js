@@ -31,7 +31,7 @@ export default function App() {
             <Navbar />
 
             <BrowserRouter>
-                <Suspense fallback={ <div>Loading | Please Wait</div> }>
+                <Suspense fallback={ <div>Loading | This really should not take very long, you may want to reload</div> }>
                     <Routes>
                         {/* Home page */}
                         <Route exact path='/' element={ <Home /> } />
